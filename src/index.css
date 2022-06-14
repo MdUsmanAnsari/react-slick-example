@@ -1,0 +1,72 @@
+.App {
+  width: 800px;
+  position: relative;
+}
+
+div {
+  width: 20rem;
+  height: 20rem;
+}
+
+.slick-slider {
+  width: 100%;
+}
+
+.slick-list {
+  width: 100% !important;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 2rem !important;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.slick-icons {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid red;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-icons--left,
+.slick-icons--right {
+  font-size: 2rem;
+}
+
+.slick-icons--left {
+  bottom: -5rem;
+  left: 2rem;
+}
+
+.slick-icons--right {
+  bottom: -5rem;
+  left: 7rem;
+}
+
+.progress {
+  position: absolute;
+  bottom: -3.5rem;
+  left: 15rem;
+  width: 200px;
+  height: 1rem;
+  background-color: gray;
+}
+
+.progress--fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: red;
+  transition: 0.4s ease-in;
+}
